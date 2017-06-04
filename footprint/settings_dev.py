@@ -18,7 +18,7 @@ from .default_settings import *
 
 TILE_CACHE = "Disk"
 
-USE_SAMPLE_DATA_SETS = True
+USE_SAMPLE_DATA_SETS = False
 
 # Run celery as the main process. False means run celery as normal.
 # If you want to run footprint_init, which requires CELERY_ALWAYS_EAGER = True,
