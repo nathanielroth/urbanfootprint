@@ -20,7 +20,7 @@ from .default_settings import *
 
 TILE_CACHE = "Disk"
 
-USE_SAMPLE_DATA_SETS = True
+USE_SAMPLE_DATA_SETS = False
 
 # Run celery as the main process
 CELERY_ALWAYS_EAGER = True
